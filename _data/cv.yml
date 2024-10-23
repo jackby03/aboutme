@@ -2,31 +2,25 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Andy Jack Del Aguila Villanueva
     - name: Date of Birth
-      value: 14th March 1879
+      value: 3th March 2003
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Software Engineer
+      institution: University Peruvian of Applied Science, Lima, Peru
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Specialist Software Architecture
+        - Consultain and Designer Architecture Secure Software
+        - title: Cybersecurity
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Specialist Forensic Engineering
+            - Ethical Hacker Specialist
 
 - title: Experience
   type: time_table

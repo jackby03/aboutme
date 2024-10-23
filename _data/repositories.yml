@@ -1,14 +1,10 @@
 github_users:
   - torvalds
-  - alshedivat
+  - jackby03
+  - jzak03
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jackby03/craftzdogVim
+  - jackby03/MC-expansion-histograma
