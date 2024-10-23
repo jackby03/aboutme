@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jackby03.github.io/sitemap.xml
+Sitemap: https://jackby03.github.io/aboutme//sitemap.xml
