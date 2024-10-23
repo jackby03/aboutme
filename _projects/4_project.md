@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Custom Linux Distro for Ethical Hacking
+description: Create a lightweight Linux distribution optimized for pentesting tools, privacy, and anonymity.
 img:
 importance: 3
 category: fun

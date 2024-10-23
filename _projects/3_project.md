@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: RaccoonSec - Personal Cybersecurity Dashboard
+description: Build a web app to monitor personal security metrics (e.g., firewall logs, vulnerability scans, and system health) in real-time.
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
+title: Decentralized Identity System
+description: Implement a blockchain-based identity system where users can verify credentials without relying on centralized authorities.
 img: assets/img/9.jpg
 importance: 2
 category: work

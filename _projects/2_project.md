@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: IoT Honeypot Network Simulator
+description: Build a network of simulated IoT devices acting as honeypots to attract and analyze malicious traffic.
 img: assets/img/3.jpg
 importance: 2
 category: work
