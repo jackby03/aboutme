@@ -24,15 +24,63 @@
   },
   "work": [
     {
+      "name": "Win Empresas",
+      "position": "Cybersecurity Pre-professional Intern",
+      "url": "https://winempresas.com",
+      "startDate": "2024-09-01",
+      "summary": "Gaining practical experience in cybersecurity practices and assisting with security assessments.",
+      "highlights": []
+    },
+    {
+      "name": "CyberHack Community",
+      "position": "Founder",
+      "url": "https://cyberhack.jackby03.com",
+      "startDate": "2024-03-01",
+      "summary": "Established a community focused on cybersecurity education and collaboration.",
+      "highlights": []
+    },
+    {
+      "name": "Fundación Calma Perú Oficial",
+      "position": "Security Analyst Intern",
+      "url": "https://fundacioncalma.org",
+      "startDate": "2024-05-01",
+      "summary": "Assisting in analyzing security protocols and implementing measures to enhance organizational security.",
+      "highlights": []
+    },
+    {
+      "name": "Inversiones Generales Mallsan EIRL",
+      "position": "IT Support Technician",
+      "url": "https://igmallsan.com",
+      "startDate": "2023-05-01",
+      "summary": "Providing technical support and IT services remotely to improve operational efficiency.",
+      "highlights": []
+    },
+    {
+      "name": "Fullstack Developer",
+      "position": "Developer",
+      "startDate": "2023-02-01",
+      "endDate": "2023-05-01",
+      "summary": "Developed full-stack applications and collaborated on various software projects.",
+      "highlights": []
+    },
+    {
+      "name": "Woden Colombia",
+      "position": "Plant Production Technician",
+      "url": "https://woden.com.co",
+      "startDate": "2022-01-01",
+      "summary": "Assisted in plant production processes and ensured quality standards were met.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
       "name": "CyberHack UPC",
       "position": "President",
       "url": "https://upc.edu.pe",
       "startDate": "2023-01-01",
       "summary": "Leading and organizing cybersecurity activities and competitions to promote learning and skill development in ethical hacking.",
       "highlights": ["CTF competitions", "Security workshops"]
-    }
-  ],
-  "volunteer": [
+    },
     {
       "organization": "UPC Software Development Club",
       "location": "Lima, Peru",
