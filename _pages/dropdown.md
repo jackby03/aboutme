@@ -11,9 +11,9 @@ children:
   - title: repositories
     permalink: /repositories/
   - title: divider
-  - title: Courses
+  - title: courses
     permalink: /teaching/
   - title: divider
-  - title: Publications
+  - title: publications
     permalink: /publications/
 ---
