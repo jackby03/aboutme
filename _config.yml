@@ -8,7 +8,7 @@ middle_name: J.
 last_name: Del Aguila
 email: jackdelaguilavilla03@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Welcome to my blog! 🦝 Here, I explore topics on cybersecurity, ethical hacking, low-level systems, and blockchain. Join me as I dive deep into technology, share insights, and document my journey in breaking, building, and securing systems.
+  Welcome to my blog! Here, I explore topics on cybersecurity, ethical hacking, low-level systems, and blockchain. Join me as I dive deep into technology, share insights, and document my journey in breaking, building, and securing systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

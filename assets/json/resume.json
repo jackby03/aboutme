@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Jzak",
+    "name": "Jack",
     "label": "Software Engineer & Ethical Hacker",
     "image": "",
     "email": "contactme@jackby03.com",
@@ -138,7 +138,7 @@
       "name": "Blockchain Ticketing System",
       "summary": "A decentralized platform for event organizers and attendees to buy, sell, and verify event tickets securely using Ethereum blockchain.",
       "startDate": "2024-09-01",
-      "url": ""
+      "url": "https://github.com/Projctool"
     }
   ]
 }
