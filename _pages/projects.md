@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Welcome to the Project Documentation section! Here, you will find detailed documentation for my diverse range of projects across Computing, Cybersecurity, Blockchain, and Software Engineering. Each project showcases my approach to problem-solving and innovation.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
