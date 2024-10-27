@@ -12,7 +12,7 @@ children:
     permalink: /repositories/
   - title: divider
   - title: courses
-    permalink: /teaching/
+    permalink: /academy/
   - title: divider
   - title: publications
     permalink: /publications/
