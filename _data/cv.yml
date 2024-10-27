@@ -1,105 +1,105 @@
-- title: General Information  
-  type: map  
-  contents:  
-    - name: Full Name  
-      value: Andy Jack Del Aguila Villanueva  
-    - name: Date of Birth  
-      value: 3rd March 2003  
-    - name: Languages  
-      value: English, Spanish  
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Andy Jack Del Aguila Villanueva
+    - name: Date of Birth
+      value: 3rd March 2003
+    - name: Languages
+      value: English, Spanish
 
-- title: Education  
-  type: time_table  
-  contents:  
-    - title: Software Engineer  
-      institution: Universidad Peruana de Ciencias Aplicadas, Lima, Peru  
-      year: 2025  
-      description:  
-        - Specialist in Software Architecture  
-        - Consultant and Designer of Secure Software Architecture  
-        - title: Cybersecurity  
-          contents:  
-            - Specialist in Forensic Engineering  
-            - Ethical Hacking Specialist  
+- title: Education
+  type: time_table
+  contents:
+    - title: Software Engineer
+      institution: Universidad Peruana de Ciencias Aplicadas, Lima, Peru
+      year: 2025
+      description:
+        - Specialist in Software Architecture
+        - Consultant and Designer of Secure Software Architecture
+        - title: Cybersecurity
+          contents:
+            - Specialist in Forensic Engineering
+            - Ethical Hacking Specialist
 
-- title: Experience  
-  type: time_table  
-  contents:  
-    - title: Cybersecurity Pre-professional Intern  
-      institution: Win Empresas  
-      year: Sept. 2024 - Present (2 months)  
-      location: San Isidro, Peru (Hybrid)  
-      description:  
-        - Assisted in the development and implementation of cybersecurity measures.  
-        - Conducted vulnerability assessments and contributed to security audits.  
-        - Collaborated with the IT team to enhance security protocols.  
+- title: Experience
+  type: time_table
+  contents:
+    - title: Cybersecurity Pre-professional Intern
+      institution: Win Empresas
+      year: Sept. 2024 - Present (2 months)
+      location: San Isidro, Peru (Hybrid)
+      description:
+        - Assisted in the development and implementation of cybersecurity measures.
+        - Conducted vulnerability assessments and contributed to security audits.
+        - Collaborated with the IT team to enhance security protocols.
 
-    - title: Founder  
-      institution: CyberHack Community  
-      year: Mar. 2024 - Present (8 months)  
-      location: Lima, Peru (Hybrid)  
-      description:  
-        - Established a community focused on cybersecurity awareness and education.  
-        - Organized workshops and events on ethical hacking and penetration testing.  
-        - Fostered collaboration among members to enhance skills and knowledge sharing.  
+    - title: Founder
+      institution: CyberHack Community
+      year: Mar. 2024 - Present (8 months)
+      location: Lima, Peru (Hybrid)
+      description:
+        - Established a community focused on cybersecurity awareness and education.
+        - Organized workshops and events on ethical hacking and penetration testing.
+        - Fostered collaboration among members to enhance skills and knowledge sharing.
 
-    - title: Security Analyst Intern  
-      institution: Fundación Calma Perú Oficial  
-      year: May 2024 - Present (6 months)  
-      location: Lima, Peru (Remote)  
-      description:  
-        - Conducted security assessments and assisted in incident response.  
-        - Supported the development of security policies and best practices.  
-        - Gained hands-on experience in threat analysis and mitigation strategies.  
+    - title: Security Analyst Intern
+      institution: Fundación Calma Perú Oficial
+      year: May 2024 - Present (6 months)
+      location: Lima, Peru (Remote)
+      description:
+        - Conducted security assessments and assisted in incident response.
+        - Supported the development of security policies and best practices.
+        - Gained hands-on experience in threat analysis and mitigation strategies.
 
-    - title: IT Support Technician  
-      institution: Inversiones Generales Mallsan EIRL  
-      year: May 2023 - Present (1 year 6 months)  
-      location: Lima, Peru (Remote)  
-      description:  
-        - Provided technical support and troubleshooting for IT issues.  
-        - Managed software installations and updates across company systems.  
-        - Ensured timely resolution of user-reported issues to maintain productivity.  
+    - title: IT Support Technician
+      institution: Inversiones Generales Mallsan EIRL
+      year: May 2023 - Present (1 year 6 months)
+      location: Lima, Peru (Remote)
+      description:
+        - Provided technical support and troubleshooting for IT issues.
+        - Managed software installations and updates across company systems.
+        - Ensured timely resolution of user-reported issues to maintain productivity.
 
-    - title: Fullstack Developer  
-      institution: [Company Name]  
-      year: Feb. 2023 - May 2023 (4 months)  
-      location: Peru (Hybrid)  
-      description:  
-        - Developed and maintained web applications using modern technologies.  
-        - Collaborated with cross-functional teams to deliver features and enhancements.  
-        - Participated in code reviews and contributed to best practices in software development.  
+    - title: Fullstack Developer
+      institution: [Company Name]
+      year: Feb. 2023 - May 2023 (4 months)
+      location: Peru (Hybrid)
+      description:
+        - Developed and maintained web applications using modern technologies.
+        - Collaborated with cross-functional teams to deliver features and enhancements.
+        - Participated in code reviews and contributed to best practices in software development.
 
-    - title: Plant Production Technician  
-      institution: Woden Colombia  
-      year: [Year Duration]  
-      location: [Location]  
-      description:  
-        - [Add relevant responsibilities and achievements here]  
+    - title: Plant Production Technician
+      institution: Woden Colombia
+      year: [Year Duration]
+      location: [Location]
+      description:
+        - [Add relevant responsibilities and achievements here]
 
-- title: Open Source Projects  
-  type: time_table  
-  contents:  
-    - title: <a href="https://github.com/jzak-projects">Projctool</a>  
-      year: 2024-now  
-      description: An AI-powered project management tool integrating Angular, ASP.NET Core, and PostgreSQL.  
-    - title: <a href="https://github.com/jzak-tickets">Blockchain Ticketing System</a>  
-      year: 2024-now  
-      description: A decentralized ticketing platform using Ethereum for secure transactions.  
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/jzak-projects">Projctool</a>
+      year: 2024-now
+      description: An AI-powered project management tool integrating Angular, ASP.NET Core, and PostgreSQL.
+    - title: <a href="https://github.com/jzak-tickets">Blockchain Ticketing System</a>
+      year: 2024-now
+      description: A decentralized ticketing platform using Ethereum for secure transactions.
 
-- title: Academic Interests  
-  type: nested_list  
-  contents:  
-    - title: Software Architecture  
-      items:  
-        - Microservices and Distributed Systems  
-        - Secure Software Development  
-    - title: Blockchain and Web3 Technologies  
-      items:  
-        - Smart Contracts  
-        - Decentralized Applications (dApps)  
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Software Architecture
+      items:
+        - Microservices and Distributed Systems
+        - Secure Software Development
+    - title: Blockchain and Web3 Technologies
+      items:
+        - Smart Contracts
+        - Decentralized Applications (dApps)
 
-- title: Other Interests  
-  type: list  
-  contents:  
-    - <u>Hobbies:</u> Pentesting, Cycling, Climbing  
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Pentesting, Cycling, Climbing
