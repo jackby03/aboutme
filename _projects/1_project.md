@@ -2,7 +2,7 @@
 layout: page
 title: Blockchain-based File Integrity Checker
 description: Develop a system to track file integrity by logging hash values on a blockchain to detect tampering.
-img: assets/img/12.jpg
+img:
 importance: 1
 category: work
 related_publications: true
