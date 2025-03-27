@@ -28,10 +28,7 @@
       "position": "Cybersecurity Analyst N1 SOC",
       "startDate": "[Fecha de inicio]",
       "summary": "Monitor and respond to security incidents using SIEM tools (Qradar, Wazuh). Develop playbooks and automate SOC operations.",
-      "highlights": [
-        "Threat detection and mitigation",
-        "Cross-functional collaboration for compliance"
-      ]
+      "highlights": ["Threat detection and mitigation", "Cross-functional collaboration for compliance"]
     },
     {
       "name": "CyberHack Community",
@@ -46,18 +43,14 @@
       "position": "Tech Lead",
       "startDate": "[Fecha de inicio]",
       "summary": "Designed scalable backend solutions and implemented secure coding practices.",
-      "highlights": [
-        "Code reviews and vulnerability mitigation"
-      ]
+      "highlights": ["Code reviews and vulnerability mitigation"]
     },
     {
       "name": "Inversiones Generales Malisan IRL",
       "position": "Cybersecurity Junior Analyst",
       "startDate": "[Fecha de inicio]",
       "summary": "Conducted vulnerability management and improved security policies.",
-      "highlights": [
-        "Proactive monitoring and incident response"
-      ]
+      "highlights": ["Proactive monitoring and incident response"]
     },
     {
       "name": "Fullstack Developer",
