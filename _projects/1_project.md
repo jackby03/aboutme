@@ -4,16 +4,16 @@ title: Blockchain-based File Integrity Checker
 description: Decentralized system for immutable file verification using Ethereum blockchain
 importance: 1
 category: fun
-related_publications: false
+pretty_table: true
 ---
 
 ## Project Vision
 
 A decentralized verification platform that establishes indisputable proof of document authenticity by anchoring file fingerprints to immutable blockchain records. Designed for enterprises requiring certified audit trails of critical documents.
 
-{% include figure.liquid loading="eager" path="assets/img/system-architecture.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}>
-
 ## Core Features
+
+{% include figure.liquid loading="eager" path="assets/img/system-architecture.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}>
 
 ### Immutable Verification
 
