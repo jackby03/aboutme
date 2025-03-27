@@ -13,7 +13,7 @@ A decentralized verification platform that establishes indisputable proof of doc
 
 ## Core Features
 
-{% include figure.liquid loading="eager" path="assets/img/system-architecture.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}>
+{% include figure.liquid loading="eager" path="assets/img/system-architecture.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
 
 ### Immutable Verification
 
