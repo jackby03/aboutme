@@ -26,7 +26,7 @@
     {
       "name": "Win Empresas",
       "position": "Cybersecurity Analyst N1 SOC",
-      "startDate": "[Fecha de inicio]",
+      "startDate": "2024-07-10",
       "summary": "Monitor and respond to security incidents using SIEM tools (Qradar, Wazuh). Develop playbooks and automate SOC operations.",
       "highlights": ["Threat detection and mitigation", "Cross-functional collaboration for compliance"]
     },
@@ -41,21 +41,22 @@
     {
       "name": "ONG Fundación CALMA",
       "position": "Tech Lead",
-      "startDate": "[Fecha de inicio]",
+      "startDate": "2024-03-01",
+      "endDate": "2024-07-01",
       "summary": "Designed scalable backend solutions and implemented secure coding practices.",
       "highlights": ["Code reviews and vulnerability mitigation"]
     },
     {
       "name": "Inversiones Generales Malisan IRL",
       "position": "Cybersecurity Junior Analyst",
-      "startDate": "[Fecha de inicio]",
+      "startDate": "2022-01-16",
       "summary": "Conducted vulnerability management and improved security policies.",
       "highlights": ["Proactive monitoring and incident response"]
     },
     {
-      "name": "Fullstack Developer",
-      "position": "Developer",
-      "startDate": "2023-02-01",
+      "name": "Fullstack Developer Freelancer",
+      "position": "Freelance Developer",
+      "startDate": "2021-02-22",
       "endDate": "2023-05-01",
       "summary": "Developed full-stack applications and collaborated on various software projects.",
       "highlights": []
@@ -65,6 +66,7 @@
       "position": "Plant Production Technician",
       "url": "https://woden.com.co",
       "startDate": "2022-01-01",
+      "endDate": "2023-05-01",
       "summary": "Assisted in plant production processes and ensured quality standards were met.",
       "highlights": []
     }
@@ -75,8 +77,7 @@
       "location": "Lima, Perú",
       "area": "Software Engineering",
       "studyType": "Pre-Grade",
-      "startDate": "[Fecha de inicio]",
-      "endDate": "[Fecha de finalización]"
+      "startDate": "2020-06-14"
     }
   ],
   "awards": [
