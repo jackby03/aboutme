@@ -11,11 +11,7 @@ related_publications: false
 
 A decentralized verification platform that establishes indisputable proof of document authenticity by anchoring file fingerprints to immutable blockchain records. Designed for enterprises requiring certified audit trails of critical documents.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/system-architecture.jpg" title="End-to-End Verification Flow" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+{% include figure.liquid loading="eager" path="assets/img/system-architecture.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}>
 
 ## Core Features
 
