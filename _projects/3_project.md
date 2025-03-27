@@ -5,7 +5,7 @@ description: Build a web app to monitor personal security metrics (e.g., firewal
 img:
 redirect:
 importance: 3
-category: work
+category: fun
 ---
 
 Empty Proyect.
