@@ -2,7 +2,6 @@
 layout: page
 title: Blockchain-based File Integrity Checker
 description: Decentralized system for immutable file verification using Ethereum blockchain
-img: /assets/img/blockchain-integrity.jpg
 importance: 1
 category: fun
 related_publications: false
