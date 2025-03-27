@@ -3,9 +3,9 @@
     "name": "Jack",
     "label": "Software Engineer & Ethical Hacker",
     "image": "",
-    "email": "contactme@jackby03.com",
+    "email": "solicitudes@jackby03.me",
     "phone": "",
-    "url": "https://jackby03.me",
+    "url": "https://jackby03.com",
     "summary": "Software engineer, pentester, and blockchain enthusiast with a passion for cybersecurity, software architecture, and building innovative applications.",
     "location": {
       "address": "Lima",
@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "Win Empresas",
-      "position": "Cybersecurity Pre-professional Intern",
+      "position": "Cybersecurity Analyst",
       "url": "https://winempresas.com",
       "startDate": "2024-09-01",
       "summary": "Gaining practical experience in cybersecurity practices and assisting with security assessments.",

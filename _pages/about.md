@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: portair2.jpg
+  image: portair2.webp
   image_circular: false
   more_info: >
     <p>Lima, Peru</p>
