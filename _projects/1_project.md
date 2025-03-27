@@ -24,7 +24,7 @@ A decentralized verification platform that establishes indisputable proof of doc
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/system-architecture.png" title="End-to-End Verification Flow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/system-architecture.webp" title="End-to-End Verification Flow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
