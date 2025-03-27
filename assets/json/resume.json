@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Jack Del Aguila",
-    "label": "Cybersecurity Professional & Ethical Hacker",
+    "name": "Jack",
+    "label": "Software Engineer & Ethical Hacker",
     "image": "",
     "email": "solicitudes@jackby03.me",
-    "phone": "+51 955534647",
+    "phone": "",
     "url": "https://jackby03.com",
-    "summary": "Cybersecurity professional with expertise in SOC operations, ethical hacking, and secure software development. Proactive in threat analysis and committed to safeguarding systems.",
+    "summary": "Software engineer, pentester, and blockchain enthusiast with a passion for cybersecurity, software architecture, and building innovative applications.",
     "location": {
       "address": "Lima",
       "postalCode": "15000",
@@ -16,16 +16,9 @@
     },
     "profiles": [
       {
-        "network": "LinkedIn",
-        "url": "[LinkedIn URL]" 
-      },
-      {
-        "network": "Github",
-        "url": "[Github URL]"
-      },
-      {
-        "network": "Website",
-        "url": "https://jackby03.com"
+        "network": "Twitter",
+        "username": "ijackby03",
+        "url": "https://twitter.com/ijackby03"
       }
     ]
   },
@@ -39,6 +32,14 @@
         "Threat detection and mitigation",
         "Cross-functional collaboration for compliance"
       ]
+    },
+    {
+      "name": "CyberHack Community",
+      "position": "Founder",
+      "url": "https://cyberhack.jackby03.com",
+      "startDate": "2024-03-01",
+      "summary": "Established a community focused on cybersecurity education and collaboration.",
+      "highlights": []
     },
     {
       "name": "ONG Fundación CALMA",
@@ -57,6 +58,22 @@
       "highlights": [
         "Proactive monitoring and incident response"
       ]
+    },
+    {
+      "name": "Fullstack Developer",
+      "position": "Developer",
+      "startDate": "2023-02-01",
+      "endDate": "2023-05-01",
+      "summary": "Developed full-stack applications and collaborated on various software projects.",
+      "highlights": []
+    },
+    {
+      "name": "Woden Colombia",
+      "position": "Plant Production Technician",
+      "url": "https://woden.com.co",
+      "startDate": "2022-01-01",
+      "summary": "Assisted in plant production processes and ensured quality standards were met.",
+      "highlights": []
     }
   ],
   "education": [
@@ -67,6 +84,14 @@
       "studyType": "Pre-Grade",
       "startDate": "[Fecha de inicio]",
       "endDate": "[Fecha de finalización]"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Cybersecurity Project",
+      "date": "2024-09-01",
+      "awarder": "UPC CyberHack Club",
+      "summary": "Recognized for an innovative approach to blockchain-based security applications."
     }
   ],
   "certificates": [
@@ -125,6 +150,18 @@
     {
       "language": "English",
       "fluency": "Intermediate (B2)"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jorge Delgado Vite",
+      "reference": "A talented and driven engineer, always eager to learn and contribute to innovative projects.",
+      "email": "jdelgad@gmail.com"
+    },
+    {
+      "name": "Adrian Marquina",
+      "reference": "A talented and driven engineer, always eager to learn and contribute to innovative projects.",
+      "email": "cobollatin@hotmail.com"
     }
   ]
 }
