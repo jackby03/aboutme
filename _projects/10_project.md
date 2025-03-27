@@ -4,7 +4,7 @@ title: Vulnerability Management Tool using AI for Automated Threat Detection
 description: AI-based tool for detecting vulnerabilities in critical corporate infrastructures
 img: /assets/img/vulnerability-management.jpg
 importance: 4
-category: professional
+category: work
 ---
 
 ### Project Overview
