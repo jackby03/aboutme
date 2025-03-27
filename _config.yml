@@ -6,7 +6,7 @@ title: Jack Del Aguila # the website title (if blank, full name will be used ins
 first_name: Andy
 middle_name: J.
 last_name: Del Aguila
-email: delaguilavillanuevaandyjack@gmail.com
+email: solicitudes@jackby03.me
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to my blog! Here, I explore topics on cybersecurity, ethical hacking, low-level systems, and blockchain. Join me as I dive deep into technology, share insights, and document my journey in breaking, building, and securing systems.
 footer_text: >
@@ -16,7 +16,7 @@ keywords: jekyll, jekyll-theme, portfolio-website
 lang: en
 icon: 🦝 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://jackby03.me # the base hostname & protocol for your site
+url: https://jackby03.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
