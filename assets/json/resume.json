@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Jack",
-    "label": "Software Engineer & Ethical Hacker",
+    "name": "Jack Del Aguila",
+    "label": "Cybersecurity Professional & Ethical Hacker",
     "image": "",
     "email": "solicitudes@jackby03.me",
-    "phone": "",
+    "phone": "+51 955534647",
     "url": "https://jackby03.com",
-    "summary": "Software engineer, pentester, and blockchain enthusiast with a passion for cybersecurity, software architecture, and building innovative applications.",
+    "summary": "Cybersecurity professional with expertise in SOC operations, ethical hacking, and secure software development. Proactive in threat analysis and committed to safeguarding systems.",
     "location": {
       "address": "Lima",
       "postalCode": "15000",
@@ -16,177 +16,115 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "ijackby03",
-        "url": "https://twitter.com/ijackby03"
+        "network": "LinkedIn",
+        "url": "[LinkedIn URL]" 
+      },
+      {
+        "network": "Github",
+        "url": "[Github URL]"
+      },
+      {
+        "network": "Website",
+        "url": "https://jackby03.com"
       }
     ]
   },
   "work": [
     {
       "name": "Win Empresas",
-      "position": "Cybersecurity Analyst",
-      "url": "https://winempresas.com",
-      "startDate": "2024-09-01",
-      "summary": "Gaining practical experience in cybersecurity practices and assisting with security assessments.",
-      "highlights": []
+      "position": "Cybersecurity Analyst N1 SOC",
+      "startDate": "[Fecha de inicio]",
+      "summary": "Monitor and respond to security incidents using SIEM tools (Qradar, Wazuh). Develop playbooks and automate SOC operations.",
+      "highlights": [
+        "Threat detection and mitigation",
+        "Cross-functional collaboration for compliance"
+      ]
     },
     {
-      "name": "CyberHack Community",
-      "position": "Founder",
-      "url": "https://cyberhack.jackby03.com",
-      "startDate": "2024-03-01",
-      "summary": "Established a community focused on cybersecurity education and collaboration.",
-      "highlights": []
+      "name": "ONG Fundación CALMA",
+      "position": "Tech Lead",
+      "startDate": "[Fecha de inicio]",
+      "summary": "Designed scalable backend solutions and implemented secure coding practices.",
+      "highlights": [
+        "Code reviews and vulnerability mitigation"
+      ]
     },
     {
-      "name": "Fundación Calma Perú Oficial",
-      "position": "Security Analyst Intern",
-      "url": "https://fundacioncalma.org",
-      "startDate": "2024-05-01",
-      "summary": "Assisting in analyzing security protocols and implementing measures to enhance organizational security.",
-      "highlights": []
-    },
-    {
-      "name": "Inversiones Generales Mallsan EIRL",
-      "position": "IT Support Technician",
-      "url": "https://igmallsan.com",
-      "startDate": "2023-05-01",
-      "summary": "Providing technical support and IT services remotely to improve operational efficiency.",
-      "highlights": []
-    },
-    {
-      "name": "Fullstack Developer",
-      "position": "Developer",
-      "startDate": "2023-02-01",
-      "endDate": "2023-05-01",
-      "summary": "Developed full-stack applications and collaborated on various software projects.",
-      "highlights": []
-    },
-    {
-      "name": "Woden Colombia",
-      "position": "Plant Production Technician",
-      "url": "https://woden.com.co",
-      "startDate": "2022-01-01",
-      "summary": "Assisted in plant production processes and ensured quality standards were met.",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
-    {
-      "name": "CyberHack UPC",
-      "position": "President",
-      "url": "https://upc.edu.pe",
-      "startDate": "2023-01-01",
-      "summary": "Leading and organizing cybersecurity activities and competitions to promote learning and skill development in ethical hacking.",
-      "highlights": ["CTF competitions", "Security workshops"]
-    },
-    {
-      "organization": "UPC Software Development Club",
-      "location": "Lima, Peru",
-      "position": "Mentor",
-      "url": "https://upc.edu.pe",
-      "startDate": "2022-04-01",
-      "summary": "Mentored students in software engineering principles, including blockchain development, and assisted with projects focused on social impact."
+      "name": "Inversiones Generales Malisan IRL",
+      "position": "Cybersecurity Junior Analyst",
+      "startDate": "[Fecha de inicio]",
+      "summary": "Conducted vulnerability management and improved security policies.",
+      "highlights": [
+        "Proactive monitoring and incident response"
+      ]
     }
   ],
   "education": [
     {
       "institution": "Universidad Peruana de Ciencias Aplicadas",
-      "location": "Lima, Peru",
-      "url": "https://upc.edu.pe",
+      "location": "Lima, Perú",
       "area": "Software Engineering",
-      "studyType": "Bachelor’s Degree",
-      "startDate": "2021-03-01",
-      "endDate": "2025-08-01",
-      "courses": ["Blockchain Systems", "Software Architecture", "Pentesting"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Best Cybersecurity Project",
-      "date": "2024-09-01",
-      "awarder": "UPC CyberHack Club",
-      "summary": "Recognized for an innovative approach to blockchain-based security applications."
+      "studyType": "Pre-Grade",
+      "startDate": "[Fecha de inicio]",
+      "endDate": "[Fecha de finalización]"
     }
   ],
   "certificates": [
     {
-      "name": "Certified Blockchain Developer",
-      "date": "2023-12-01",
-      "issuer": "Coursera",
-      "url": "https://example.com"
+      "name": "Cybersecurity Analyst Professional Certificate",
+      "issuer": "IBM"
     },
     {
-      "name": "Certified Ethical Hacker (CEH)",
-      "date": "2024-01-01",
-      "issuer": "EC-Council",
-      "url": "https://example.com"
-    }
-  ],
-  "publications": [
+      "name": "Certified Ethical Hacker",
+      "issuer": "CISCO"
+    },
     {
-      "name": "Energy Access and Geographical Impact on Community Development",
-      "publisher": "Academic Journal",
-      "releaseDate": "2024-10-01",
-      "summary": "An exploration of how access to energy resources and geographical location affect the growth of communities, with a focus on Peru."
+      "name": "Cybersecurity Awareness Professional Certification (CAPC)",
+      "issuer": "CertiProf"
+    },
+    {
+      "name": "Certified Sophos Engineer",
+      "issuer": "Sophos"
+    },
+    {
+      "name": "Blockchain Specialization",
+      "issuer": "University at Buffalo & SUNY"
+    },
+    {
+      "name": "Cloud Computing and Security",
+      "issuer": "Microsoft Azure"
+    },
+    {
+      "name": "Kaspersky Industrial CyberSecurity (038.4.1)",
+      "issuer": "Kaspersky"
     }
   ],
   "skills": [
     {
-      "name": "Software Development",
-      "level": "Advanced",
-      "keywords": ["Blockchain", "Software Architecture", "CQRS", "OOP"]
+      "name": "Cybersecurity Tools",
+      "keywords": ["Burp Suite", "Nessus", "Maltego", "Cortex", "Qradar"]
     },
     {
-      "name": "Cybersecurity",
-      "level": "Advanced",
-      "keywords": ["Pentesting", "CTF Competitions", "Network Security"]
+      "name": "SOC Operations",
+      "keywords": ["Threat Hunting", "SIEM Management", "Incident Response"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": ["AWS", "Azure", "Kubernetes", "DevSecOps"]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python", "React.js", "Spring Boot", "ASP.NET"]
     }
   ],
   "languages": [
     {
       "language": "Spanish",
-      "fluency": "Native Speaker"
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Cybersecurity",
-      "keywords": ["Pentesting", "Ethical Hacking", "Blockchain Security"]
-    },
-    {
-      "name": "Software Architecture",
-      "keywords": ["CQRS", "Microservices", "DDD"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jorge Delgado Vite",
-      "reference": "A talented and driven engineer, always eager to learn and contribute to innovative projects."
-    },
-    {
-      "name": "Adrian Marquina",
-      "reference": "A talented and driven engineer, always eager to learn and contribute to innovative projects."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Projctool",
-      "summary": "Projctool's architecture consists of an Angular frontend for a dynamic and responsive user interface, an ASP.NET Core backend for robust and scalable server-side processing, and a PostgreSQL database for reliable data storage. The integration of OpenAI's API allows for advanced AI functionalities, offering personalized and intelligent project management solutions. This combination ensures a seamless and efficient workflow for project managers, whether working on long-term initiatives or short sprints.",
-      "startDate": "2024-07-01",
-      "endDate": "Present",
-      "url": "https://github.com/Projctool"
-    },
-    {
-      "name": "Blockchain Ticketing System",
-      "summary": "A decentralized platform for event organizers and attendees to buy, sell, and verify event tickets securely using Ethereum blockchain.",
-      "startDate": "2024-09-01",
-      "url": "https://github.com/Projctool"
+      "fluency": "Intermediate (B2)"
     }
   ]
 }
