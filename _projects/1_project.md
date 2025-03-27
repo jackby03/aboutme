@@ -7,24 +7,13 @@ category: fun
 related_publications: false
 ---
 
----
-
-layout: page
-title: Blockchain-Powered Document Integrity System
-description: Enterprise-grade solution for tamper-proof document verification using blockchain technology
-img: /assets/img/blockchain-docs.jpg
-importance: 1
-category: work
-
----
-
 ## Project Vision
 
 A decentralized verification platform that establishes indisputable proof of document authenticity by anchoring file fingerprints to immutable blockchain records. Designed for enterprises requiring certified audit trails of critical documents.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/system-architecture.jpg" title="End-to-End Verification Flow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/system-architecture.jpg" title="End-to-End Verification Flow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
