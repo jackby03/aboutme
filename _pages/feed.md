@@ -1,19 +1,11 @@
 ---
-layout: default
+layout: feed
 permalink: /feed/
-title: Feed
-nav: true
-nav_order: 2
+title: feed
 pagination:
   enabled: true
   collection: feed_posts
-  permalink: /feed/page/:num/
   per_page: 10
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1
-    after: 3
 ---
 
 <div class="feed">
@@ -55,8 +47,8 @@ pagination:
 
   </ul>
 
-  {% if page.pagination.enabled %}
-    {% include pagination.liquid %}
-  {% endif %}
+{% if page.pagination.enabled %}
+{% include pagination.liquid %}
+{% endif %}
 
 </div>

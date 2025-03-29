@@ -1,0 +1,44 @@
+<!-- filepath: c:\Users\jackd\source\repos\aboutme\_layouts\feed.liquid -->
+--- layout: default ---
+
+<div class="feed-container">
+  <header class="feed-header">
+    <h1 class="feed-title">My Feed</h1>
+    <p class="feed-subtitle">Daily updates and activities</p>
+  </header>
+
+  <section class="feed-posts">
+    {% assign feedlist = site.feed_posts | sort: 'date' | reverse %}
+    {% for post in feedlist %}
+      <article class="feed-post">
+        <div class="feed-post-header">
+          <h2 class="feed-post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          <p class="feed-post-meta">
+            <i class="fa-solid fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }}
+            {% if post.tags %}
+              &nbsp; &middot; &nbsp;
+              {% for tag in post.tags %}
+                <a href="{{ tag | slugify | prepend: '/feed/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag"></i> {{ tag }} </a>
+                {% unless forloop.last %}
+                  &nbsp;
+                {% endunless %}
+              {% endfor %}
+            {% endif %}
+          </p>
+        </div>
+        <div class="feed-post-content">
+          <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </div>
+      </article>
+      <hr class="feed-divider">
+    {% endfor %}
+  </section>
+
+  {% if page.pagination.enabled %}
+    <nav class="feed-pagination">
+      {% include pagination.liquid %}
+    </nav>
+  {% endif %}
+</div>
