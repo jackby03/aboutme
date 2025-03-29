@@ -187,6 +187,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  feed_posts:
+    output: true
+    permalink: /feed/:path/
   news:
     defaults:
       layout: post
