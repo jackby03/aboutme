@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jack Del Aguila",
     "label": "Cybersecurity Professional",
-    "image": "prof_pic.jpg",
+    "image": "",
     "email": "solicitudes@jackby03.me",
     "url": "https://jackby03.com",
     "summary": "Cybersecurity professional with a background in Software Engineering and expertise in SOC operations, ethical hacking, malware analysis, and vulnerability assessment.",
@@ -34,7 +34,11 @@
       "startDate": "2024-08-01",
       "endDate": "",
       "summary": "Monitor and respond to security incidents using advanced SIEM tools, conduct real-time threat detection, and collaborate with teams to ensure compliance.",
-      "highlights": ["SIEM tools (Qradar, Wazuh)", "Threat detection and mitigation", "Developing use cases and playbooks"]
+      "highlights": [
+        "SIEM tools (Qradar, Wazuh)",
+        "Threat detection and mitigation",
+        "Developing use cases and playbooks"
+      ]
     },
     {
       "name": "ONG Fundación CALMA",
@@ -125,22 +129,51 @@
     {
       "name": "Cybersecurity",
       "level": "Advanced",
-      "keywords": ["Threat Hunting", "Malware Analysis", "SIEM Management", "Incident Response", "SOAR Configuration", "SOC Operations"]
+      "keywords": [
+        "Threat Hunting",
+        "Malware Analysis",
+        "SIEM Management",
+        "Incident Response",
+        "SOAR Configuration",
+        "SOC Operations"
+      ]
     },
     {
       "name": "Cloud & DevOps",
       "level": "Advanced",
-      "keywords": ["Microsoft Azure", "AWS", "GCP", "VMWare ESXi", "Docker", "Kubernetes", "CI/CD", "DevSecOps Practices"]
+      "keywords": [
+        "Microsoft Azure",
+        "AWS",
+        "GCP",
+        "VMWare ESXi",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "DevSecOps Practices"
+      ]
     },
     {
       "name": "Web Development",
       "level": "Intermediate",
-      "keywords": ["React.js", "Angular", "Spring Boot", "ASP.NET", "API Development", "Brokers MQ"]
+      "keywords": [
+        "React.js",
+        "Angular",
+        "Spring Boot",
+        "ASP.NET",
+        "API Development",
+        "Brokers MQ"
+      ]
     },
     {
       "name": "Automation",
       "level": "Advanced",
-      "keywords": ["PathUI", "n8n", "Python", "PowerAutomate", "Playbook SOAR"]
+      "keywords": [
+        "PathUI",
+        "n8n",
+        "Python",
+        "PowerAutomate",
+        "Playbook SOAR"
+      ]
     }
   ],
   "languages": [
