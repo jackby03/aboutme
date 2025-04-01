@@ -25,13 +25,10 @@
   .diagram text,
   .glyph,
   .debug text {
-    /** font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; **/
-    font-family:
-      Iosevka Fixed,
-      monospace;
+    font-family: $font-family-monospace;
     font-size: 3em;
     text-anchor: middle;
-    alignment-baseline: central;
+    dominant-baseline: central;
     white-space: pre;
     fill: var(--global-text-color);
   }
@@ -49,80 +46,29 @@
   .debug[debug="true"] line.grid {
     stroke: var(--global-text-color);
     stroke-width: 0.2;
-    stroke-linecap: butt;
-    fill: var(--global-text-color);
-    opacity: 1%;
-  }
-
-  polygon {
-    stroke-width: 0;
-  }
-
-  .debug[debug="true"] polygon.inner {
-    fill: var(--global-text-color);
-    stroke: var(--global-text-color);
-    opacity: 5%;
+    opacity: 0.1;
   }
 
   polygon {
     stroke: var(--global-text-color);
-    /** stroke-width: 0.2; **/
-    stroke-linecap: butt;
     fill: var(--global-text-color);
-  }
-
-  .debug[debug="true"] polygon,
-  .debug[debug="true"] line.grid {
-    opacity: 10%;
-  }
-
-  .debug[debug="true"] polygon,
-  .debug[debug="true"] path,
-  .debug[debug="true"] circle {
-    opacity: 50%;
+    stroke-width: 0.2;
   }
 
   .debug[debug="true"] polygon {
     fill: red;
     stroke: red;
-  }
-
-  /**
-  circle {
-    fill: var(--global-text-color);
-  }
-  **/
-
-  .debug[debug="true"] circle,
-  .debug[debug="true"] path {
-    opacity: 50%;
-    fill: red;
-  }
-
-  .debug[debug="true"] circle {
-    stroke: red;
-  }
-
-  .debug[debug="true"] .inner {
-    stroke-width: 0.2;
+    opacity: 0.5;
   }
 
   line.part {
     stroke-width: 6;
-    stroke-linecap: butt;
     stroke: var(--global-text-color);
   }
 
   .debug[debug="true"] line.part {
-    opacity: 50%;
     stroke: red;
-  }
-
-  .debug[debug="true"] line.center {
-    stroke-width: 3;
-    stroke-linecap: butt;
-    opacity: 10%;
-    stroke: var(--global-text-color);
+    opacity: 0.5;
   }
 
   text::selection {
