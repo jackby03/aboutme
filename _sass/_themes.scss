@@ -1,24 +1,25 @@
 /*******************************************************************************
  * Themes
- ******************************************************************************/
+ *******************************************************************************/
 
 @use "sass:color";
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
+  /* White Theme Elegant */
+  --global-bg-color: #{$white-bg-color};
+  --global-code-bg-color: #{$code-bg-color-light}; // se mantiene del _variables.scss
+  --global-text-color: #{$white-text-color};
+  --global-text-color-light: #{$white-secondary-text};
+  --global-theme-color: #{$white-theme-color};
+  --global-hover-color: #{$white-hover-color};
+  --global-hover-text-color: #{$white-color}; // Asumimos $white-color definido en _variables.scss
+  --global-footer-bg-color: #{$grey-color-dark}; // Puedes ajustarlo si lo deseas
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{$white-card-bg};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -30,6 +31,7 @@
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
 
+  // Bloques de tip, warning y danger se mantienen (opcional: actualizarlos si deseas)
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -76,21 +78,22 @@
   }
 }
 
-html[data-theme="dark"] {
+html[data-theme="dark-hacker"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
+  /* Dark Theme Hacker */
+  --global-bg-color: #{$dark-hacker-bg-color};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #{$dark-hacker-text-color};
+  --global-text-color-light: #{$dark-hacker-secondary-text};
+  --global-theme-color: #{$dark-hacker-theme-color};
+  --global-hover-color: #{$dark-hacker-hover-color};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
+  --global-footer-bg-color: #{$grey-color-light}; // Puedes ajustar según tu gusto
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-card-bg-color: #{$dark-hacker-card-bg};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
@@ -101,6 +104,7 @@ html[data-theme="dark"] {
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
 
+  // Bloques se mantienen (opcional: actualizarlos si lo deseas)
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
