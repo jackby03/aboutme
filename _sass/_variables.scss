@@ -20,6 +20,7 @@ $grey-900: #1a1a1a !default;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Back-to-Top Button Variables
 $back-to-top-bottom: 20px !default;
 $back-to-top-right: 20px !default;
 $back-to-top-height: 50px !default;
@@ -28,3 +29,8 @@ $back-to-top-z-index: 1000 !default;
 
 // Typography
 $font-family-monospace: "Iosevka Fixed", monospace !default;
+
+// Icon Sizes and Effects
+$icon-size: 1.25rem !default;
+$icon-hover-scale: 1.1 !default;
+$icon-hover-rotation: 20deg !default;

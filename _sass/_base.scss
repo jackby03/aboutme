@@ -385,13 +385,26 @@ ul.task-list input[type="checkbox"] {
 
 #light-toggle,
 #search-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
   color: var(--global-text-color);
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
 
   &:hover {
     color: var(--global-hover-color);
+    transform: scale(1.1); // Efecto de zoom al pasar el mouse
+  }
+
+  i {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover i {
+    transform: rotate(20deg); // Rotación ligera al pasar el mouse
   }
 }
 

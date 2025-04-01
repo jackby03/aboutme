@@ -37,3 +37,14 @@ body.sticky-bottom-footer {
     border-radius: 8px;
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  #light-toggle,
+  #search-toggle {
+    margin-left: 1rem;
+  }
+}
