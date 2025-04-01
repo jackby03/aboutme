@@ -11,7 +11,7 @@ $deep-purple-color: #3a005a !default; // Aún más oscuro
 $cyan-color: #9400d3 !default; // Morado intenso para detalles
 
 // ----------------------------
-// Additional Colors (Missing Variables Fixed)
+// Additional Colors
 // ----------------------------
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
@@ -20,7 +20,7 @@ $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
 
 // ----------------------------
-// Grey, White and Black
+// Grey, White, and Black
 // ----------------------------
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
@@ -30,9 +30,20 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // ----------------------------
+// Light Theme Colors
+// ----------------------------
+$white-bg-color: #f9f9f9 !default; // Fondo claro
+$white-text-color: #333333 !default; // Texto principal
+$white-secondary-text: #666666 !default; // Texto secundario
+$white-theme-color: #6200ea !default; // Color principal
+$white-hover-color: #3700b3 !default; // Hover
+$white-card-bg: #ffffff !default; // Fondo de tarjetas
+
+// ----------------------------
 // Code Background Colors
 // ----------------------------
 $code-bg-color-dark: #2c3237 !default; // Código con fondo oscuro
+$code-bg-color-light: rgba($purple-color, 0.05) !default; // Código con fondo claro
 
 // ----------------------------
 // Dark Theme Hacker (Estilo ciberpunk, agresivo)
@@ -45,36 +56,3 @@ $dark-hacker-theme-color: #ff00ff !default; // Color principal: fucsia hacker
 $dark-hacker-hover-color: #9400d3 !default; // Hover: morado intenso
 $dark-hacker-border-color: #222222 !default; // Bordes tenues
 $dark-hacker-highlight: #a020f0 !default; // Resaltado en morado neón
-
-html {
-  color-scheme: dark;
-}
-
-html[data-theme="dark-hacker"] {
-  --global-bg-color: #{$dark-hacker-bg-color};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$dark-hacker-text-color};
-  --global-text-color-light: #{$dark-hacker-secondary-text};
-  --global-theme-color: #{$dark-hacker-theme-color};
-  --global-hover-color: #{$dark-hacker-hover-color};
-  --global-hover-text-color: #{$white-color};
-  --global-card-bg-color: #{$dark-hacker-card-bg};
-  --global-back-to-top-bg-color: rgba($dark-purple-color, 0.5);
-  --global-back-to-top-text-color: #{$white-color};
-}
-
-html[data-theme-setting="dark"] {
-  #light-toggle-system {
-    display: none;
-  }
-  #light-toggle-dark {
-    display: block;
-  }
-  #light-toggle-light {
-    display: none;
-  }
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-  }
-}
