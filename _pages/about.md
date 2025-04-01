@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my personal website! I'm passionate about cybersecurity, SOC operations, ethical hacking, and malware analysis. Here, I share my research, insights, and experiences in the field of information security. 
+Welcome to my personal website! I'm passionate about cybersecurity, SOC operations, ethical hacking, and malware analysis. Here, I share my research, insights, and experiences in the field of information security.
 
 Feel free to explore my latest publications, blog posts, and security projects. Whether you're a fellow security researcher or just curious about cybersecurity, I hope you find something valuable here!
 
