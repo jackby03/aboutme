@@ -5,16 +5,15 @@
 @use "sass:color";
 
 :root {
-  color-scheme: light;
-  /* White Theme Elegant */
-  --global-bg-color: #{$white-bg-color};
-  --global-code-bg-color: #{$code-bg-color-light}; // se mantiene del _variables.scss
-  --global-text-color: #{$white-text-color};
-  --global-text-color-light: #{$white-secondary-text};
-  --global-theme-color: #{$white-theme-color};
-  --global-hover-color: #{$white-hover-color};
-  --global-hover-text-color: #{$white-color}; // Asumimos $white-color definido en _variables.scss
-  --global-footer-bg-color: #{$grey-color-dark}; // Puedes ajustarlo si lo deseas
+  color-scheme: dark;
+  --global-bg-color: #{$dark-hacker-bg-color};
+  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-text-color: #{$dark-hacker-text-color};
+  --global-text-color-light: #{$dark-hacker-secondary-text};
+  --global-theme-color: #{$dark-hacker-theme-color};
+  --global-hover-color: #{$dark-hacker-hover-color};
+  --global-hover-text-color: #{$white-color};
+  --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
