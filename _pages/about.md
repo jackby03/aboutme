@@ -32,24 +32,3 @@ Welcome to my personal website! I'm passionate about cybersecurity, SOC operatio
 Feel free to explore my latest publications, blog posts, and security projects. Whether you're a fellow security researcher or just curious about cybersecurity, I hope you find something valuable here!
 
 Check out my [GitHub](https://github.com/jackby03) or connect with me on [Twitter](https://twitter.com/).
-
-```bash
-  #######
-  ###  #####      #####           #####
-   ###   ##################    #########
-   ####   ######################     ###
-    #### #####################      ###
-      #########################     ##
-      ############ ##############  ##
-      ###   #######  ############  #
-      ###     #############    ##
-      ###       #######       ###
-      ###         ####        ###
-    ##########  ########      ###
-     ############  ###############
-       ##########   ##############
-          #####################
-             ##############
-             ##########
-              ########
-```
