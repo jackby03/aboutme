@@ -1,24 +1,13 @@
-/*******************************************************************************
- * Variables used throughout the theme.
- * To adjust anything, simply edit the variables below and rebuild the theme.
- *******************************************************************************/
-
+/* Purple Hacker Theme */
 @use "sass:color";
-
-// ----------------------------
-// Basic Colors & Defaults
-// ----------------------------
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
 
 // ----------------------------
 // Base Colors for Hacker Purple Themes
 // ----------------------------
 $purple-color: #a020f0 !default; // Morado neón (color principal)
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$dark-purple-color: #5a007a !default; // Morado oscuro profundo
+$deep-purple-color: #3a005a !default; // Aún más oscuro
 $cyan-color: #9400d3 !default; // Morado intenso para detalles
 
 // ----------------------------
@@ -26,49 +15,57 @@ $cyan-color: #9400d3 !default; // Morado intenso para detalles
 // ----------------------------
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #0d0d0d !default; // Para fondos en White Theme Elegant
-$grey-900: #1a1a1a !default; // Para fondos en Dark Theme Hacker
+$grey-color-dark: #0d0d0d !default; // Para fondos oscuros
+$grey-900: #1a1a1a !default; // Fondo secundario oscuro
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // ----------------------------
 // Code Background Colors
 // ----------------------------
-$code-bg-color-light: rgba($purple-color, 0.05); // Para White Theme Elegant
-$code-bg-color-dark: #2c3237 !default; // Para Dark Theme Hacker
-
-// ----------------------------
-// White Theme Elegant (Estilo formal y elegante)
-// ----------------------------
-$white-bg-color: #fdfdfd !default; // Fondo claro y pulcro
-$white-card-bg: #ffffff !default; // Fondo de tarjetas en blanco
-$white-text-color: #1a1a1a !default; // Texto en color negro profundo
-$white-secondary-text: #4a4a4a !default; // Texto secundario en gris elegante
-$white-theme-color: $purple-color; // Color principal: morado elegante
-$white-hover-color: #8b5cf6 !default; // Color de hover: un morado vibrante
-$white-border-color: #e0e0e0 !default; // Bordes sutiles
+$code-bg-color-dark: #2c3237 !default; // Código con fondo oscuro
 
 // ----------------------------
 // Dark Theme Hacker (Estilo ciberpunk, agresivo)
 // ----------------------------
 $dark-hacker-bg-color: #000000 !default; // Fondo negro absoluto
 $dark-hacker-card-bg: #0a0a0a !default; // Fondo de tarjetas en negro muy oscuro
-$dark-hacker-text-color: #00ffcc !default; // Texto en verde neón
-$dark-hacker-secondary-text: #808080 !default; // Texto secundario en gris medio
+$dark-hacker-text-color: #a020f0 !default; // Texto en morado neón
+$dark-hacker-secondary-text: #808080 !default; // Texto secundario gris
 $dark-hacker-theme-color: #ff00ff !default; // Color principal: fucsia hacker
 $dark-hacker-hover-color: #9400d3 !default; // Hover: morado intenso
 $dark-hacker-border-color: #222222 !default; // Bordes tenues
-$dark-hacker-highlight: #00ff00 !default; // Resaltado en verde brillante
+$dark-hacker-highlight: #a020f0 !default; // Resaltado en morado neón
 
-// ----------------------------
-// Icon Fonts & Back To Top Button Config
-// ----------------------------
-$fa-font-path: "../webfonts";
-$ti-font-path: "../fonts";
+html {
+  color-scheme: dark;
+}
 
-$back-to-top-z-index: 10;
-$back-to-top-bottom: 30px;
-$back-to-top-right: 30px;
-$back-to-top-diameter: 40px;
-$back-to-top-height: $back-to-top-diameter;
-$back-to-top-width: $back-to-top-diameter;
+html[data-theme="dark-hacker"] {
+  --global-bg-color: #{$dark-hacker-bg-color};
+  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-text-color: #{$dark-hacker-text-color};
+  --global-text-color-light: #{$dark-hacker-secondary-text};
+  --global-theme-color: #{$dark-hacker-theme-color};
+  --global-hover-color: #{$dark-hacker-hover-color};
+  --global-hover-text-color: #{$white-color};
+  --global-card-bg-color: #{$dark-hacker-card-bg};
+  --global-back-to-top-bg-color: rgba($dark-purple-color, 0.5);
+  --global-back-to-top-text-color: #{$white-color};
+}
+
+html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+  #light-toggle-dark {
+    display: block;
+  }
+  #light-toggle-light {
+    display: none;
+  }
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
+}

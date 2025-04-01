@@ -18,68 +18,17 @@
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-card-bg};
+  --global-card-bg-color: #{$dark-hacker-card-bg};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
+  --global-back-to-top-bg-color: rgba($dark-purple-color, 0.5);
   --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
-
-  // Bloques de tip, warning y danger se mantienen (opcional: actualizarlos si deseas)
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
-
-  #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-
-  #light-toggle-dark {
-    display: none;
-  }
-
-  #light-toggle-light {
-    display: none;
-  }
-
-  .only-light {
-    display: block;
-  }
-
-  .only-dark {
-    display: none;
-  }
-
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-    bottom: $back-to-top-bottom;
-    right: $back-to-top-right;
-    height: $back-to-top-height;
-    width: $back-to-top-width;
-    z-index: $back-to-top-z-index;
-  }
+  --global-newsletter-bg-color: #{$grey-900};
+  --global-newsletter-text-color: #{$white-color};
 }
 
+/* Dark Theme Hacker */
 html[data-theme="dark-hacker"] {
   color-scheme: dark;
-  /* Dark Theme Hacker */
   --global-bg-color: #{$dark-hacker-bg-color};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$dark-hacker-text-color};
@@ -87,63 +36,48 @@ html[data-theme="dark-hacker"] {
   --global-theme-color: #{$dark-hacker-theme-color};
   --global-hover-color: #{$dark-hacker-hover-color};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light}; // Puedes ajustar según tu gusto
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
+  --global-footer-bg-color: #{$grey-900};
+  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-link-color: #{$white-color};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$dark-hacker-card-bg};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
-
-  // Bloques se mantienen (opcional: actualizarlos si lo deseas)
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
-
-  .only-light {
-    display: none;
-  }
-
-  .only-dark {
-    display: block;
-  }
+  --global-back-to-top-bg-color: rgba($purple-color, 0.5);
+  --global-back-to-top-text-color: #{$white-color};
+  --global-newsletter-bg-color: #{$grey-900};
+  --global-newsletter-text-color: #{$white-color};
 }
 
+/* Light Theme Elegant */
+html[data-theme="light-elegant"] {
+  color-scheme: light;
+  --global-bg-color: #{$white-bg-color};
+  --global-code-bg-color: rgba($purple-color, 0.05);
+  --global-text-color: #{$white-text-color};
+  --global-text-color-light: #{$white-secondary-text};
+  --global-theme-color: #{$white-theme-color};
+  --global-hover-color: #{$white-hover-color};
+  --global-hover-text-color: #{$white-color};
+  --global-footer-bg-color: #{$white-card-bg};
+  --global-footer-text-color: #{$white-secondary-text};
+  --global-footer-link-color: #{$black-color};
+  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-card-bg-color: #{$white-card-bg};
+  --global-back-to-top-bg-color: rgba($light-purple-color, 0.5);
+  --global-back-to-top-text-color: #{$black-color};
+  --global-newsletter-bg-color: #{$white-card-bg};
+  --global-newsletter-text-color: #{$black-color};
+}
+
+/* Theme Toggle */
 html[data-theme-setting="dark"] {
   #light-toggle-system {
     display: none;
   }
-
   #light-toggle-dark {
-    padding-left: 10px;
-    padding-top: 12px;
     display: block;
   }
-
   #light-toggle-light {
     display: none;
-  }
-
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
   }
 }
 
@@ -151,14 +85,10 @@ html[data-theme-setting="light"] {
   #light-toggle-system {
     display: none;
   }
-
   #light-toggle-dark {
     display: none;
   }
-
   #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
     display: block;
   }
 }
