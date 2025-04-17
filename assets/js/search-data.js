@@ -490,7 +490,7 @@ ninja.data = [{
         title: 'Blogger',
         section: 'Socials',
         handler: () => {
-          window.open("https://https://blog.jackby03.com/", "_blank");
+          window.open("https://blog.jackby03.com/", "_blank");
         },
       },{
         id: 'social-discord',
