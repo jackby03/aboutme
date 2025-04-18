@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: daily-research # blog_name will be displayed in your blog page
+blog_name: DEDSEC # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for hacking, cybersecurity, and research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
