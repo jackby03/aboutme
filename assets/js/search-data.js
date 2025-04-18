@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-bienvenidos-a-dedsec-por-jackby03",
+            },{id: "post-instalando-kali-linux-como-un-verdadero-hacker-guía-paso-a-paso-desde-dedsec",
+        
+          title: 'Instalando Kali Linux como un verdadero hacker: Guía paso a paso desde DEDSEC... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://blog.jackby03.com/2025/04/instalando-kali-linux-como-un-verdadero.html", "_blank");
+          
+        },
+      },{id: "post-bienvenidos-a-dedsec-por-jackby03",
         
           title: 'Bienvenidos a DEDSEC — Por jackby03 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
