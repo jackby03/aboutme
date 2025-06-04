@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my personal website! I'm passionate about cybersecurity, SOC operations, ethical hacking, and malware analysis. Here, I share my research, insights, and experiences in the field of information security.
+Hi, I'm Jackby03, software developer and collaborator in open source projects. I specialize in building resilient and scalable distributed systems, integrating automation, blockchain and software engineering best practices.
 
-Feel free to explore my latest publications, blog posts, and security projects. Whether you're a fellow security researcher or just curious about cybersecurity, I hope you find something valuable here!
+In addition to my focus on advanced architecture, I am interested in the intersection between development and cybersecurity, applying red team and blue team principles to build robust and secure solutions from the ground up.
+
+I am constantly exploring new technologies such as artificial intelligence, looking for ways to integrate real innovation into my projects. This site is my space to share ideas, research and tools that cross boundaries between development, security and automation.
 
 Check out my [GitHub](https://github.com/jackby03) or connect with me on [Twitter](https://twitter.com/).
